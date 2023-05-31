@@ -1,0 +1,10 @@
+<h1>new User</h1>
+<%= form_for (@user) do |u| %>
+  <%= u.label :name %>
+  <%= u.text_field :name %>
+  <%= u.label :password %>
+  <%= u.text_field :name %>
+  <%=u.label :email %>
+  <%= u.text_field :email %>
+  <%= u.submit %>
+<% end %>
